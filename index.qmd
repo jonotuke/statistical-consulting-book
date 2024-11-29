@@ -1,0 +1,16 @@
+# Preface {.unnumbered}
+
+Our goal in this book is to create a resource for statistical consultants - both new and old in the tooth. Often these skills "go without saying", but once any two statistical consultants get together, there will be lots of 
+
+> "Oh I like that - I might steal it"
+
+So we thought, let's create an online version of that. Hence, if you feel that you have 
+
+- advice, 
+- tips, 
+- tricks, or 
+- horror stories from the front-line, 
+
+then please feel free to add. 
+
+Remember that these chapters are not **THOU SHALL**, but more, _maybe you could_. 

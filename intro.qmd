@@ -1,0 +1,12 @@
+# Introduction
+
+So you have your degree, master, PhD in statistics and have been asked by a researcher to help her analyse her data - now what. You know your Kruskal-Wallis from your KS-test and are proficient at R/Python/Julia/`<INSERT LANG HERE>`, but the researcher is talking about sample sizes, grants, microarrays, bone samples, surveys, etc. etc. etc. and you do not know where to start. Welcome to the wonderful, exciting, scary world of statistical consulting. So before we start, let's introduce ourselves. 
+
+## Prof. Karen Lamb
+
+## Assoc. Prof. David Price
+
+## Dr Jono Tuke
+
+## Dr Nicole White
+

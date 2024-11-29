@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: Statistical Consulting
+  author: Karen Lamb, David Price, Jono Tuke, and Nicole White
+  date: "11/29/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - project-structure.qmd
+    - summary.qmd
+    - references.qmd
+  cover-image: cover.png
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
