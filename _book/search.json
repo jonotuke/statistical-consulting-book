@@ -20,11 +20,11 @@
     ]
   },
   {
-    "objectID": "intro.html#dr-david-price",
-    "href": "intro.html#dr-david-price",
+    "objectID": "intro.html#assoc.-prof.-david-price",
+    "href": "intro.html#assoc.-prof.-david-price",
     "title": "1  Introduction",
-    "section": "1.2 Dr David Price",
-    "text": "1.2 Dr David Price",
+    "section": "1.2 Assoc. Prof. David Price",
+    "text": "1.2 Assoc. Prof. David Price",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -50,6 +50,16 @@
     ]
   },
   {
+    "objectID": "project-structure.html",
+    "href": "project-structure.html",
+    "title": "2  Project structure",
+    "section": "",
+    "text": "Knuth (1984)\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project structure</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
     "title": "3  Summary",
@@ -60,13 +70,13 @@
     ]
   },
   {
-    "objectID": "intro.html#assoc.-prof.-david-price",
-    "href": "intro.html#assoc.-prof.-david-price",
-    "title": "1  Introduction",
-    "section": "1.2 Assoc. Prof. David Price",
-    "text": "1.2 Assoc. Prof. David Price",
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "References"
     ]
   }
 ]
