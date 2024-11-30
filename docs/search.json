@@ -1,0 +1,82 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistical Consulting",
+    "section": "",
+    "text": "Preface\nOur goal in this book is to create a resource for statistical consultants - both new and old in the tooth. Often these skills “go without saying”, but once any two statistical consultants get together, there will be lots of\n\n“Oh I like that - I might steal it”\n\nSo we thought, let’s create an online version of that. Hence, if you feel that you have\n\nadvice,\ntips,\ntricks, or\nhorror stories from the front-line,\n\nthen please feel free to add.\nRemember that these chapters are not THOU SHALL, but more, maybe you could.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Prof. Karen Lamb",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#assoc.-prof.-david-price",
+    "href": "intro.html#assoc.-prof.-david-price",
+    "title": "1  Introduction",
+    "section": "1.2 Assoc. Prof. David Price",
+    "text": "1.2 Assoc. Prof. David Price",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#dr-jono-tuke",
+    "href": "intro.html#dr-jono-tuke",
+    "title": "1  Introduction",
+    "section": "1.3 Dr Jono Tuke",
+    "text": "1.3 Dr Jono Tuke",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#dr-nicole-white",
+    "href": "intro.html#dr-nicole-white",
+    "title": "1  Introduction",
+    "section": "1.4 Dr Nicole White",
+    "text": "1.4 Dr Nicole White",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "project-structure.html",
+    "href": "project-structure.html",
+    "title": "2  Project structure",
+    "section": "",
+    "text": "Knuth (1984)\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Project structure</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
