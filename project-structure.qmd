@@ -1,3 +1,193 @@
+---
+author: Jono Tuke
+---
+
 # Project structure
+
+So welcome to the opinionated chapter on project structure. First a comment, I am not stating that this is the only way to organise a project, feel free to have your own system, as long as you have a system. This is my system as I write. It will change as I learn from my mistakes. What I want you to do is not follow it slavishly, but thing about the underlying principles and how you want to implement them. 
+
+## Why a project structure? 
+So first the why. Why do you need a project structure? Well, as you become more experienced as a statistical consultant, then you will get more and more projects. This creates two problems: 
+
+1. You may be working on more than one project at a time, and you need to be able to move between them cleanly. 
+2. You may not come back to a project for many months. The longest so far for me returning to a previous analysis was 10 years.
+
+In both cases, having a simple standard structure, means that you can get upto speed easily. This gives us stats consulting Rule 1
+
+::: {.callout-tip}
+# Stats consulting Rule 1
+- Be organised to look after future you. 
+:::
+
+In the following, I will outline how to set up your folder stucture in R, and also guidance on why I use this structure. 
+
+
+## Setting up a project stucture in R
+
+First we will set up the project using the `usethis` package: 
+
+```{r}
+#| eval: false
+#| echo: true
+usethis::create_project("~/Desktop/2025-penguin-analysis")
+```
+
+So a couple of things to notice, with my naming of the project, in this case
+
+```
+2025-penguin-analysis
+```
+
+First I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the [Palmer penguins dataset](https://allisonhorst.github.io/palmerpenguins/) - this should be rememberable enough. I will also show you later how to add this info into your reports in @sec-readme. 
+
+So before we create any more of the structure, lets consider our goal- think self-contained (@fig-kei-tora). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing. 
+
+```{r}
+#| fig-cap: The Kei-tora gardening contest
+#| label: fig-kei-tora
+knitr::include_graphics(here::here("figs", "kei-tora.png"))
+```
+
+So now we are going to add some sub-folders for out analysis:
+
+```{r}
+#| eval: false
+#| echo: true
+fs::dir_create("raw-data")
+fs::dir_create("data")
+
+fs::dir_create("figs")
+fs::dir_create("tabs")
+
+fs::dir_create("r-code")
+
+fs::dir_create("reports")
+```
+
+So, let's break down these subfolders. 
+
+First, notice that I have two subfolders for data:
+
+- `raw-data`, and 
+- `data`. 
+
+The subfolder `raw-data` is for the data that I get from the collaborator - this is dated and named (@sec-name-files) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder `data` and record what you did in your README file (more about this later @sec-readme). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither. 
+
+The subfolder `data` is for any data structure that you make yourself. While we are talking about data. Let's talk about `.RData`:
+
+::: {.callout-tip}
+# Rant 1: Stop using .RData
+Do not save `.RData` when you quit R and do not load `.RData` when you fire up R. The data you use in your analysis should be purposely loaded by you, not left as a side-effect. 
+:::
+
+The next two subfolders are `figs` and `tabs`. These are for all of the figures and tables from the analysis. I keep these seperate so that I can keep them easily, and also it makes it easy to share with the collaborators. 
+
+So now we get to some code file, these are put in the subfolder `r-code`. If I have python code, then we have a subfolder `py-code`, and a subfolder for julia: `julia-code`. I like to keep these seperate, but it is not necessary. 
+
+The next and final subfolder for now is `reports`. This is where I write my reports for the collaborator. 
+
+
+Now we have some subfolders, we can now populate them with some files. So lets talk about naming files
+
+
+## Naming files {#sec-name-files}
+- machine readable, 
+- human readable, and 
+- plays well with default ordering.
+
+## Naming things - files
+I use `-` to seperate information in filename
+
+## Date ordering
+```{r}
+#| eval: false
+#| echo: true
+2023-02-08-gene-data.xlsx
+2023-03-11-gene-data.xlsx
+```
+
+## Order of action
+```{r}
+#| eval: false
+#| echo: true
+01-read-data-csv.R
+02-clean-data.R
+03-fit-linear-model.R
+04-get-roc-plots.R
+```
+
+## Using here::here
+<!-- ![](here.png){fig-align="center"} -->
+
+## Example {.smaller}
+```{r}
+#| echo: true
+#| eval: false
+mpg_data <- read_csv(
+  here::here(
+    "raw-data", "2024-02-20-mpg.csv"
+  )
+)
+mpg_data
+```
+
+## Where does stuff go?
+Where did you look for it - that is where is belongs. 
+
+## Add README {#sec-readme}
+```{r}
+#| eval: false
+#| echo: true
+fs::file_create("README.qmd")
+```
+
+## Add figs
+This is where you should put all of your figures. 
+```{r}
+#| eval: false
+#| echo: true
+fs::dir_create("figs")
+```
+
+## Add tables
+This is where you put your tables. 
+```{r}
+#| eval: false
+#| echo: true
+fs::dir_create("tabs")
+```
+
+## Add resources
+This is where you can put papers, documents from the collaborator etc. 
+```{r}
+#| eval: false
+#| echo: true
+fs::dir_create("resources")
+```
+
+## More to come in later workshops
+1. Add git
+2. Add github
+3. Add targets
+
+## Organising folders
+
+<!-- ![](build-second-brain.jpeg){fig-align="center"} -->
+
+## PARA
+
+1. Projects
+2. Areas
+3. Research
+4. Archives
+
+
+## Resources
+- <https://masalmon.eu/2021/06/30/r-projects/>
+- <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510>
+- <https://www.tidyverse.org/blog/2017/12/workflow-vs-script/>
+- <http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf>
+
+
 
 @knuth84

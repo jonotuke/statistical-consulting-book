@@ -9,10 +9,16 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - project-structure.qmd
+    - part: "Part 1: Management skills (people, projects and money)"
+      chapters: 
+      - communication.qmd
+    - part: "Part 2: Technical skills"
+      chapters: 
+      - project-structure.qmd
+      - targets.qmd
     - summary.qmd
     - references.qmd
-  cover-image: cover.png
+  cover-image: figs/cover.png
 
 bibliography: references.bib
 
