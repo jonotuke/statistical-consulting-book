@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="David Price">
 
-<title>References – Statistical Consulting</title>
+<title>3&nbsp; Graphical communication – Statistical Consulting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -49,7 +51,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="prev">
+<link href="./project-structure.html" rel="next">
+<link href="./communication.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -99,7 +102,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./communication.html">Part 1: Management skills (people, projects and money)</a></li><li class="breadcrumb-item"><a href="./graphical-communication.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical communication</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -153,7 +156,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./graphical-communication.html" class="sidebar-item-text sidebar-link">
+  <a href="./graphical-communication.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical communication</span></span></a>
   </div>
 </li>
@@ -190,7 +193,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -205,15 +208,21 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./communication.html">Part 1: Management skills (people, projects and money)</a></li><li class="breadcrumb-item"><a href="./graphical-communication.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical communication</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">References</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical communication</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>David Price </p>
+          </div>
+  </div>
     
   
     
@@ -224,19 +233,51 @@ div.csl-indent {
 </header>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-knuth84" class="csl-entry" role="listitem">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput.
-J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+<ul>
+<li>Clear, Simple, Easy to read</li>
+<li>Know your audience
+<ul>
+<li>Including ‘who’ will be looking at it, and whether for paper vs presentation</li>
+</ul></li>
+<li>Reduce unnecessary detail (e.g., don’t need both x-axis and colour)</li>
+<li>Don’t include aesthetics that don’t map to anything (e.g., colour without legend)</li>
+<li>Choose the ‘right’ plot type
+<ul>
+<li>Bars v dot, should lines join dots (i.e., do you want the reader to interpolate?), stacked v dodged bars, etc…</li>
+</ul></li>
+<li>Think about the message you want the figure to convey
+<ul>
+<li>Including unit of inference – e.g., aim to show data/individual-level variation (show quantiles), vs.&nbsp;inference on a quantity (show CI)</li>
+<li>Facet order – do you want reader to compare (e.g.) heights of bars left-to-right? Or location of time series/points top-to-bottom?</li>
+</ul></li>
+<li>Don’t mislead reader (e.g., constrain y-axis limits to exaggerate differences, y-axis discontinuity to show all)</li>
+<li>Avoid trying to make the figure “do too much” – may make it hard to interpret for naïve reader</li>
+<li>Use some annotation to improve readability/interpretation</li>
+<li>‘Better’ figure types
+<ul>
+<li>Donut plot rather than pie</li>
+<li>Beeswarm or violin plot in place of boxplot</li>
+<li>Points with error bars in place of detonator plots</li>
+</ul></li>
+<li>Publication ready figures
+<ul>
+<li>setting up scripts to automate figure output, format, DPI, etc. according to journal requirements?</li>
+<li>clear captions that describe all features – tell the reader how to read the plot</li>
+</ul></li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-gordon2015" class="csl-entry" role="listitem">
+Gordon, Ian, and Sue Finch. 2015. <span>“Statistician <span>Heal Thyself</span>: <span>Have We Lost</span> the <span>Plot</span>?”</span> <em>Journal of Computational and Graphical Statistics</em> 24 (4): 1210–29. <a href="https://doi.org/10.1080/10618600.2014.989324">https://doi.org/10.1080/10618600.2014.989324</a>.
+</div>
+<div id="ref-rougier2014" class="csl-entry" role="listitem">
+Rougier, Nicolas P., Michael Droettboom, and Philip E. Bourne. 2014. <span>“Ten <span>Simple Rules</span> for <span>Better Figures</span>.”</span> <em>PLOS Computational Biology</em> 10 (9): e1003833. <a href="https://doi.org/10.1371/journal.pcbi.1003833">https://doi.org/10.1371/journal.pcbi.1003833</a>.
 </div>
 <div id="ref-zaloumis2015" class="csl-entry" role="listitem">
-Zaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A.
-Simpson. 2015. <span>“Presenting Parasitological Data: The Good, the Bad
-and the Error Bar.”</span> <em>Parasitology</em> 142 (11): 1351–63. <a href="https://doi.org/10.1017/S0031182015000748">https://doi.org/10.1017/S0031182015000748</a>.
+Zaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A. Simpson. 2015. <span>“Presenting Parasitological Data: The Good, the Bad and the Error Bar.”</span> <em>Parasitology</em> 142 (11): 1351–63. <a href="https://doi.org/10.1017/S0031182015000748">https://doi.org/10.1017/S0031182015000748</a>.
 </div>
 </div>
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -658,11 +699,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span>
+      <a href="./communication.html" class="pagination-link" aria-label="Communication">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Communication</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="./project-structure.html" class="pagination-link" aria-label="Project structure">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Project structure</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->

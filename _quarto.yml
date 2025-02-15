@@ -12,6 +12,7 @@ book:
     - part: "Part 1: Management skills (people, projects and money)"
       chapters: 
       - communication.qmd
+      - graphical-communication.qmd
     - part: "Part 2: Technical skills"
       chapters: 
       - project-structure.qmd

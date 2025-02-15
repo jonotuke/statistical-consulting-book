@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jono Tuke">
 
-<title>3&nbsp; Project structure – Statistical Consulting</title>
+<title>4&nbsp; Project structure – Statistical Consulting</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,7 +86,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./targets.html" rel="next">
-<link href="./communication.html" rel="prev">
+<link href="./graphical-communication.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -136,7 +136,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-structure.html">Part 2: Technical skills</a></li><li class="breadcrumb-item"><a href="./project-structure.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Project structure</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-structure.html">Part 2: Technical skills</a></li><li class="breadcrumb-item"><a href="./project-structure.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Project structure</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -188,6 +188,12 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Communication</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./graphical-communication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical communication</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -202,13 +208,13 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./project-structure.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Project structure</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Project structure</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./targets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Using targets</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Using targets</span></span></a>
   </div>
 </li>
       </ul>
@@ -216,7 +222,7 @@ div.csl-indent {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -235,32 +241,32 @@ div.csl-indent {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-a-project-structure" id="toc-why-a-project-structure" class="nav-link active" data-scroll-target="#why-a-project-structure"><span class="header-section-number">3.1</span> Why a project structure?</a></li>
-  <li><a href="#setting-up-a-project-stucture-in-r" id="toc-setting-up-a-project-stucture-in-r" class="nav-link" data-scroll-target="#setting-up-a-project-stucture-in-r"><span class="header-section-number">3.2</span> Setting up a project stucture in R</a></li>
-  <li><a href="#sec-name-files" id="toc-sec-name-files" class="nav-link" data-scroll-target="#sec-name-files"><span class="header-section-number">3.3</span> Naming files</a></li>
-  <li><a href="#naming-things---files" id="toc-naming-things---files" class="nav-link" data-scroll-target="#naming-things---files"><span class="header-section-number">3.4</span> Naming things - files</a></li>
-  <li><a href="#date-ordering" id="toc-date-ordering" class="nav-link" data-scroll-target="#date-ordering"><span class="header-section-number">3.5</span> Date ordering</a></li>
-  <li><a href="#order-of-action" id="toc-order-of-action" class="nav-link" data-scroll-target="#order-of-action"><span class="header-section-number">3.6</span> Order of action</a></li>
-  <li><a href="#using-herehere" id="toc-using-herehere" class="nav-link" data-scroll-target="#using-herehere"><span class="header-section-number">3.7</span> Using here::here</a></li>
-  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example"><span class="header-section-number">3.8</span> Example</a></li>
-  <li><a href="#where-does-stuff-go" id="toc-where-does-stuff-go" class="nav-link" data-scroll-target="#where-does-stuff-go"><span class="header-section-number">3.9</span> Where does stuff go?</a></li>
-  <li><a href="#sec-readme" id="toc-sec-readme" class="nav-link" data-scroll-target="#sec-readme"><span class="header-section-number">3.10</span> Add README</a></li>
-  <li><a href="#add-figs" id="toc-add-figs" class="nav-link" data-scroll-target="#add-figs"><span class="header-section-number">3.11</span> Add figs</a></li>
-  <li><a href="#add-tables" id="toc-add-tables" class="nav-link" data-scroll-target="#add-tables"><span class="header-section-number">3.12</span> Add tables</a></li>
-  <li><a href="#add-resources" id="toc-add-resources" class="nav-link" data-scroll-target="#add-resources"><span class="header-section-number">3.13</span> Add resources</a></li>
-  <li><a href="#more-to-come-in-later-workshops" id="toc-more-to-come-in-later-workshops" class="nav-link" data-scroll-target="#more-to-come-in-later-workshops"><span class="header-section-number">3.14</span> More to come in later workshops</a></li>
-  <li><a href="#organising-folders" id="toc-organising-folders" class="nav-link" data-scroll-target="#organising-folders"><span class="header-section-number">3.15</span> Organising folders</a></li>
-  <li><a href="#para" id="toc-para" class="nav-link" data-scroll-target="#para"><span class="header-section-number">3.16</span> PARA</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">3.17</span> Resources</a></li>
+  <li><a href="#why-a-project-structure" id="toc-why-a-project-structure" class="nav-link active" data-scroll-target="#why-a-project-structure"><span class="header-section-number">4.1</span> Why a project structure?</a></li>
+  <li><a href="#setting-up-a-project-stucture-in-r" id="toc-setting-up-a-project-stucture-in-r" class="nav-link" data-scroll-target="#setting-up-a-project-stucture-in-r"><span class="header-section-number">4.2</span> Setting up a project stucture in R</a></li>
+  <li><a href="#sec-name-files" id="toc-sec-name-files" class="nav-link" data-scroll-target="#sec-name-files"><span class="header-section-number">4.3</span> Naming files</a></li>
+  <li><a href="#naming-things---files" id="toc-naming-things---files" class="nav-link" data-scroll-target="#naming-things---files"><span class="header-section-number">4.4</span> Naming things - files</a></li>
+  <li><a href="#date-ordering" id="toc-date-ordering" class="nav-link" data-scroll-target="#date-ordering"><span class="header-section-number">4.5</span> Date ordering</a></li>
+  <li><a href="#order-of-action" id="toc-order-of-action" class="nav-link" data-scroll-target="#order-of-action"><span class="header-section-number">4.6</span> Order of action</a></li>
+  <li><a href="#using-herehere" id="toc-using-herehere" class="nav-link" data-scroll-target="#using-herehere"><span class="header-section-number">4.7</span> Using here::here</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example"><span class="header-section-number">4.8</span> Example</a></li>
+  <li><a href="#where-does-stuff-go" id="toc-where-does-stuff-go" class="nav-link" data-scroll-target="#where-does-stuff-go"><span class="header-section-number">4.9</span> Where does stuff go?</a></li>
+  <li><a href="#sec-readme" id="toc-sec-readme" class="nav-link" data-scroll-target="#sec-readme"><span class="header-section-number">4.10</span> Add README</a></li>
+  <li><a href="#add-figs" id="toc-add-figs" class="nav-link" data-scroll-target="#add-figs"><span class="header-section-number">4.11</span> Add figs</a></li>
+  <li><a href="#add-tables" id="toc-add-tables" class="nav-link" data-scroll-target="#add-tables"><span class="header-section-number">4.12</span> Add tables</a></li>
+  <li><a href="#add-resources" id="toc-add-resources" class="nav-link" data-scroll-target="#add-resources"><span class="header-section-number">4.13</span> Add resources</a></li>
+  <li><a href="#more-to-come-in-later-workshops" id="toc-more-to-come-in-later-workshops" class="nav-link" data-scroll-target="#more-to-come-in-later-workshops"><span class="header-section-number">4.14</span> More to come in later workshops</a></li>
+  <li><a href="#organising-folders" id="toc-organising-folders" class="nav-link" data-scroll-target="#organising-folders"><span class="header-section-number">4.15</span> Organising folders</a></li>
+  <li><a href="#para" id="toc-para" class="nav-link" data-scroll-target="#para"><span class="header-section-number">4.16</span> PARA</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><span class="header-section-number">4.17</span> Resources</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-structure.html">Part 2: Technical skills</a></li><li class="breadcrumb-item"><a href="./project-structure.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Project structure</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./project-structure.html">Part 2: Technical skills</a></li><li class="breadcrumb-item"><a href="./project-structure.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Project structure</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Project structure</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Project structure</span></h1>
 </div>
 
 
@@ -284,8 +290,8 @@ div.csl-indent {
 
 
 <p>So welcome to the opinionated chapter on project structure. First a comment, I am not stating that this is the only way to organise a project, feel free to have your own system, as long as you have a system. This is my system as I write. It will change as I learn from my mistakes. What I want you to do is not follow it slavishly, but thing about the underlying principles and how you want to implement them.</p>
-<section id="why-a-project-structure" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="why-a-project-structure"><span class="header-section-number">3.1</span> Why a project structure?</h2>
+<section id="why-a-project-structure" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="why-a-project-structure"><span class="header-section-number">4.1</span> Why a project structure?</h2>
 <p>So first the why. Why do you need a project structure? Well, as you become more experienced as a statistical consultant, then you will get more and more projects. This creates two problems:</p>
 <ol type="1">
 <li>You may be working on more than one project at a time, and you need to be able to move between them cleanly.</li>
@@ -309,16 +315,16 @@ Stats consulting Rule 1
 </div>
 <p>In the following, I will outline how to set up your folder stucture in R, and also guidance on why I use this structure.</p>
 </section>
-<section id="setting-up-a-project-stucture-in-r" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="setting-up-a-project-stucture-in-r"><span class="header-section-number">3.2</span> Setting up a project stucture in R</h2>
+<section id="setting-up-a-project-stucture-in-r" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="setting-up-a-project-stucture-in-r"><span class="header-section-number">4.2</span> Setting up a project stucture in R</h2>
 <p>First we will set up the project using the <code>usethis</code> package:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_project</span>(<span class="st">"~/Desktop/2025-penguin-analysis"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>So a couple of things to notice, with my naming of the project, in this case</p>
 <pre><code>2025-penguin-analysis</code></pre>
-<p>First I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the <a href="https://allisonhorst.github.io/palmerpenguins/">Palmer penguins dataset</a> - this should be rememberable enough. I will also show you later how to add this info into your reports in <a href="#sec-readme" class="quarto-xref"><span>Section 3.10</span></a>.</p>
-<p>So before we create any more of the structure, lets consider our goal- think self-contained (<a href="#fig-kei-tora" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing.</p>
+<p>First I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the <a href="https://allisonhorst.github.io/palmerpenguins/">Palmer penguins dataset</a> - this should be rememberable enough. I will also show you later how to add this info into your reports in <a href="#sec-readme" class="quarto-xref"><span>Section 4.10</span></a>.</p>
+<p>So before we create any more of the structure, lets consider our goal- think self-contained (<a href="#fig-kei-tora" class="quarto-xref">Figure&nbsp;<span>4.1</span></a>). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"figs"</span>, <span class="st">"kei-tora.png"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
@@ -328,7 +334,7 @@ Stats consulting Rule 1
 <img src="figs/kei-tora.png" class="img-fluid figure-img" width="574">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kei-tora-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.1: The Kei-tora gardening contest
+Figure&nbsp;4.1: The Kei-tora gardening contest
 </figcaption>
 </figure>
 </div>
@@ -352,7 +358,7 @@ Figure&nbsp;3.1: The Kei-tora gardening contest
 <li><code>raw-data</code>, and</li>
 <li><code>data</code>.</li>
 </ul>
-<p>The subfolder <code>raw-data</code> is for the data that I get from the collaborator - this is dated and named (<a href="#sec-name-files" class="quarto-xref"><span>Section 3.3</span></a>) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder <code>data</code> and record what you did in your README file (more about this later <a href="#sec-readme" class="quarto-xref"><span>Section 3.10</span></a>). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither.</p>
+<p>The subfolder <code>raw-data</code> is for the data that I get from the collaborator - this is dated and named (<a href="#sec-name-files" class="quarto-xref"><span>Section 4.3</span></a>) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder <code>data</code> and record what you did in your README file (more about this later <a href="#sec-readme" class="quarto-xref"><span>Section 4.10</span></a>). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither.</p>
 <p>The subfolder <code>data</code> is for any data structure that you make yourself. While we are talking about data. Let’s talk about <code>.RData</code>:</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -372,27 +378,27 @@ Rant 1: Stop using .RData
 <p>The next and final subfolder for now is <code>reports</code>. This is where I write my reports for the collaborator.</p>
 <p>Now we have some subfolders, we can now populate them with some files. So lets talk about naming files</p>
 </section>
-<section id="sec-name-files" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="sec-name-files"><span class="header-section-number">3.3</span> Naming files</h2>
+<section id="sec-name-files" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="sec-name-files"><span class="header-section-number">4.3</span> Naming files</h2>
 <ul>
 <li>machine readable,</li>
 <li>human readable, and</li>
 <li>plays well with default ordering.</li>
 </ul>
 </section>
-<section id="naming-things---files" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="naming-things---files"><span class="header-section-number">3.4</span> Naming things - files</h2>
+<section id="naming-things---files" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="naming-things---files"><span class="header-section-number">4.4</span> Naming things - files</h2>
 <p>I use <code>-</code> to seperate information in filename</p>
 </section>
-<section id="date-ordering" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="date-ordering"><span class="header-section-number">3.5</span> Date ordering</h2>
+<section id="date-ordering" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="date-ordering"><span class="header-section-number">4.5</span> Date ordering</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2023-02-08</span><span class="sc">-</span>gene<span class="sc">-</span>data.xlsx</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="dv">2023-03-11</span><span class="sc">-</span>gene<span class="sc">-</span>data.xlsx</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="order-of-action" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="order-of-action"><span class="header-section-number">3.6</span> Order of action</h2>
+<section id="order-of-action" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="order-of-action"><span class="header-section-number">4.6</span> Order of action</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="dv">01</span><span class="sc">-</span>read<span class="sc">-</span>data<span class="sc">-</span>csv.R</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="dv">02</span><span class="sc">-</span>clean<span class="sc">-</span>data.R</span>
@@ -400,12 +406,12 @@ Rant 1: Stop using .RData
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="dv">04</span><span class="sc">-</span>get<span class="sc">-</span>roc<span class="sc">-</span>plots.R</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="using-herehere" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="using-herehere"><span class="header-section-number">3.7</span> Using here::here</h2>
+<section id="using-herehere" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="using-herehere"><span class="header-section-number">4.7</span> Using here::here</h2>
 <!-- ![](here.png){fig-align="center"} -->
 </section>
-<section id="example" class="level2 smaller" data-number="3.8">
-<h2 class="smaller anchored" data-number="3.8" data-anchor-id="example"><span class="header-section-number">3.8</span> Example</h2>
+<section id="example" class="level2 smaller" data-number="4.8">
+<h2 class="smaller anchored" data-number="4.8" data-anchor-id="example"><span class="header-section-number">4.8</span> Example</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>mpg_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  here<span class="sc">::</span><span class="fu">here</span>(</span>
@@ -415,51 +421,51 @@ Rant 1: Stop using .RData
 <span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>mpg_data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="where-does-stuff-go" class="level2" data-number="3.9">
-<h2 data-number="3.9" class="anchored" data-anchor-id="where-does-stuff-go"><span class="header-section-number">3.9</span> Where does stuff go?</h2>
+<section id="where-does-stuff-go" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="where-does-stuff-go"><span class="header-section-number">4.9</span> Where does stuff go?</h2>
 <p>Where did you look for it - that is where is belongs.</p>
 </section>
-<section id="sec-readme" class="level2" data-number="3.10">
-<h2 data-number="3.10" class="anchored" data-anchor-id="sec-readme"><span class="header-section-number">3.10</span> Add README</h2>
+<section id="sec-readme" class="level2" data-number="4.10">
+<h2 data-number="4.10" class="anchored" data-anchor-id="sec-readme"><span class="header-section-number">4.10</span> Add README</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">file_create</span>(<span class="st">"README.qmd"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="add-figs" class="level2" data-number="3.11">
-<h2 data-number="3.11" class="anchored" data-anchor-id="add-figs"><span class="header-section-number">3.11</span> Add figs</h2>
+<section id="add-figs" class="level2" data-number="4.11">
+<h2 data-number="4.11" class="anchored" data-anchor-id="add-figs"><span class="header-section-number">4.11</span> Add figs</h2>
 <p>This is where you should put all of your figures.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">dir_create</span>(<span class="st">"figs"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="add-tables" class="level2" data-number="3.12">
-<h2 data-number="3.12" class="anchored" data-anchor-id="add-tables"><span class="header-section-number">3.12</span> Add tables</h2>
+<section id="add-tables" class="level2" data-number="4.12">
+<h2 data-number="4.12" class="anchored" data-anchor-id="add-tables"><span class="header-section-number">4.12</span> Add tables</h2>
 <p>This is where you put your tables.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">dir_create</span>(<span class="st">"tabs"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="add-resources" class="level2" data-number="3.13">
-<h2 data-number="3.13" class="anchored" data-anchor-id="add-resources"><span class="header-section-number">3.13</span> Add resources</h2>
+<section id="add-resources" class="level2" data-number="4.13">
+<h2 data-number="4.13" class="anchored" data-anchor-id="add-resources"><span class="header-section-number">4.13</span> Add resources</h2>
 <p>This is where you can put papers, documents from the collaborator etc.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>fs<span class="sc">::</span><span class="fu">dir_create</span>(<span class="st">"resources"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="more-to-come-in-later-workshops" class="level2" data-number="3.14">
-<h2 data-number="3.14" class="anchored" data-anchor-id="more-to-come-in-later-workshops"><span class="header-section-number">3.14</span> More to come in later workshops</h2>
+<section id="more-to-come-in-later-workshops" class="level2" data-number="4.14">
+<h2 data-number="4.14" class="anchored" data-anchor-id="more-to-come-in-later-workshops"><span class="header-section-number">4.14</span> More to come in later workshops</h2>
 <ol type="1">
 <li>Add git</li>
 <li>Add github</li>
 <li>Add targets</li>
 </ol>
 </section>
-<section id="organising-folders" class="level2" data-number="3.15">
-<h2 data-number="3.15" class="anchored" data-anchor-id="organising-folders"><span class="header-section-number">3.15</span> Organising folders</h2>
+<section id="organising-folders" class="level2" data-number="4.15">
+<h2 data-number="4.15" class="anchored" data-anchor-id="organising-folders"><span class="header-section-number">4.15</span> Organising folders</h2>
 <!-- ![](build-second-brain.jpeg){fig-align="center"} -->
 </section>
-<section id="para" class="level2" data-number="3.16">
-<h2 data-number="3.16" class="anchored" data-anchor-id="para"><span class="header-section-number">3.16</span> PARA</h2>
+<section id="para" class="level2" data-number="4.16">
+<h2 data-number="4.16" class="anchored" data-anchor-id="para"><span class="header-section-number">4.16</span> PARA</h2>
 <ol type="1">
 <li>Projects</li>
 <li>Areas</li>
@@ -467,8 +473,8 @@ Rant 1: Stop using .RData
 <li>Archives</li>
 </ol>
 </section>
-<section id="resources" class="level2" data-number="3.17">
-<h2 data-number="3.17" class="anchored" data-anchor-id="resources"><span class="header-section-number">3.17</span> Resources</h2>
+<section id="resources" class="level2" data-number="4.17">
+<h2 data-number="4.17" class="anchored" data-anchor-id="resources"><span class="header-section-number">4.17</span> Resources</h2>
 <ul>
 <li><a href="https://masalmon.eu/2021/06/30/r-projects/" class="uri">https://masalmon.eu/2021/06/30/r-projects/</a></li>
 <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510" class="uri">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510</a></li>
@@ -905,13 +911,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./communication.html" class="pagination-link" aria-label="Communication">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Communication</span></span>
+      <a href="./graphical-communication.html" class="pagination-link" aria-label="Graphical communication">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Graphical communication</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./targets.html" class="pagination-link" aria-label="Using targets">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Using targets</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Using targets</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

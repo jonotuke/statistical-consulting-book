@@ -1,0 +1,33 @@
+---
+author: David Price
+nocite: |
+  @zaloumis2015, @gordon2015, @rougier2014
+---
+
+# Graphical communication
+
+- Clear, Simple, Easy to read
+- Know your audience
+    - Including ‘who’ will be looking at it, and whether for paper vs presentation
+-	Reduce unnecessary detail (e.g., don’t need both x-axis and colour)
+-	Don’t include aesthetics that don’t map to anything (e.g., colour without legend)
+-	Choose the ‘right’ plot type
+    - Bars v dot,  should lines join dots (i.e., do you want the reader to interpolate?), stacked v dodged bars, etc…
+-	Think about the message you want the figure to convey
+    - Including unit of inference – e.g., aim to show data/individual-level variation (show quantiles), vs. inference on a quantity (show CI)
+    - Facet order – do you want reader to compare (e.g.) heights of bars left-to-right? Or location of time series/points top-to-bottom?
+-	Don’t mislead reader (e.g., constrain y-axis limits to exaggerate differences, y-axis discontinuity to show all)
+-	Avoid trying to make the figure “do too much” – may make it hard to interpret for naïve reader
+-	Use some annotation to improve readability/interpretation
+-	‘Better’ figure types
+    - Donut plot rather than pie
+    - Beeswarm or violin plot in place of boxplot
+    - Points with error bars in place of detonator plots
+-	Publication ready figures
+     - setting up scripts to automate figure output, format, DPI, etc. according to journal requirements?
+    - clear captions that describe all features – tell the reader how to read the plot
+
+
+
+
+
