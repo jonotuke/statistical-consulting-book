@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "1.1 Prof. Karen Lamb",
+    "text": "1.1 Prof. Karen Lamb\nSo you have your degree, master, PhD in statistics and have been asked by a researcher to help her analyse her data - now what. You know your Kruskal-Wallis from your KS-test and are proficient at R/Python/Julia/&lt;INSERT LANG HERE&gt;, but the researcher is talking about sample sizes, grants, microarrays, bone samples, surveys, etc. etc. etc. and you do not know where to start. Welcome to the wonderful, exciting, scary world of statistical consulting. So before we start, let’s introduce ourselves.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -50,6 +50,17 @@
     ]
   },
   {
+    "objectID": "graphical-communication.html",
+    "href": "graphical-communication.html",
+    "title": "3  Graphical communication",
+    "section": "",
+    "text": "Clear, Simple, Easy to read\nKnow your audience\n\nIncluding ‘who’ will be looking at it, and whether for paper vs presentation\n\nReduce unnecessary detail (e.g., don’t need both x-axis and colour)\nDon’t include aesthetics that don’t map to anything (e.g., colour without legend)\nChoose the ‘right’ plot type\n\nBars v dot, should lines join dots (i.e., do you want the reader to interpolate?), stacked v dodged bars, etc…\n\nThink about the message you want the figure to convey\n\nIncluding unit of inference – e.g., aim to show data/individual-level variation (show quantiles), vs. inference on a quantity (show CI)\nFacet order – do you want reader to compare (e.g.) heights of bars left-to-right? Or location of time series/points top-to-bottom?\n\nDon’t mislead reader (e.g., constrain y-axis limits to exaggerate differences, y-axis discontinuity to show all)\nAvoid trying to make the figure “do too much” – may make it hard to interpret for naïve reader\nUse some annotation to improve readability/interpretation\n‘Better’ figure types\n\nDonut plot rather than pie\nBeeswarm or violin plot in place of boxplot\nPoints with error bars in place of detonator plots\n\nPublication ready figures\n\nsetting up scripts to automate figure output, format, DPI, etc. according to journal requirements?\nclear captions that describe all features – tell the reader how to read the plot\n\n\n\n\n\n\nGordon, Ian, and Sue Finch. 2015. “Statistician Heal Thyself: Have We Lost the Plot?” Journal of Computational and Graphical Statistics 24 (4): 1210–29. https://doi.org/10.1080/10618600.2014.989324.\n\n\nRougier, Nicolas P., Michael Droettboom, and Philip E. Bourne. 2014. “Ten Simple Rules for Better Figures.” PLOS Computational Biology 10 (9): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.\n\n\nZaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A. Simpson. 2015. “Presenting Parasitological Data: The Good, the Bad and the Error Bar.” Parasitology 142 (11): 1351–63. https://doi.org/10.1017/S0031182015000748.",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical communication</span>"
+    ]
+  },
+  {
     "objectID": "project-structure.html",
     "href": "project-structure.html",
     "title": "4  Project structure",
@@ -61,89 +72,36 @@
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "3  Summary",
+    "objectID": "project-structure.html#why-a-project-structure",
+    "href": "project-structure.html#why-a-project-structure",
+    "title": "4  Project structure",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nZaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A.\nSimpson. 2015. “Presenting Parasitological Data: The Good, the Bad\nand the Error Bar.” Parasitology 142 (11): 1351–63. https://doi.org/10.1017/S0031182015000748.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#why",
-    "href": "project-structure.html#why",
-    "title": "3  Project structure",
-    "section": "3.2 Why?",
-    "text": "3.2 Why?\n\nAs you become more proficient, you will have numerous collaborations.\nWork on a single folder / project for each one.\nYour final submission for the practical part of the course will be a single github repos with a project that I can download and run.\n\n\n\n\n\n\n\nStats consulting Rule 1\n\n\n\n\nBe organised to look after future you.",
+    "text": "You may be working on more than one project at a time, and you need to be able to move between them cleanly.\nYou may not come back to a project for many months. The longest so far for me returning to a previous analysis was 10 years.\n\n\n\n\n\n\n\n\nStats consulting Rule 1\n\n\n\n\nBe organised to look after future you.",
     "crumbs": [
       "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
-    "objectID": "project-structure.html#create-project",
-    "href": "project-structure.html#create-project",
-    "title": "3  Project structure",
-    "section": "3.5 Create project",
-    "text": "3.5 Create project\n\nusethis::create_project(\"~/Desktop/collaboration-project\")\n\n\nfs::dir_tree(\"resources/example-project/\")\n\nresources/example-project/\n├── data\n└── raw-data",
+    "objectID": "project-structure.html#setting-up-a-project-stucture-in-r",
+    "href": "project-structure.html#setting-up-a-project-stucture-in-r",
+    "title": "4  Project structure",
+    "section": "4.2 Setting up a project stucture in R",
+    "text": "4.2 Setting up a project stucture in R\nFirst we will set up the project using the usethis package:\n\nusethis::create_project(\"~/Desktop/2025-penguin-analysis\")\n\nSo a couple of things to notice, with my naming of the project, in this case\n2025-penguin-analysis\nFirst I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the Palmer penguins dataset - this should be rememberable enough. I will also show you later how to add this info into your reports in Section 4.10.\nSo before we create any more of the structure, lets consider our goal- think self-contained (Figure 4.1). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing.\n\nknitr::include_graphics(here::here(\"figs\", \"kei-tora.png\"))\n\n\n\n\n\n\n\nFigure 4.1: The Kei-tora gardening contest\n\n\n\n\n\nSo now we are going to add some sub-folders for out analysis:\n\nfs::dir_create(\"raw-data\")\nfs::dir_create(\"data\")\n\nfs::dir_create(\"figs\")\nfs::dir_create(\"tabs\")\n\nfs::dir_create(\"r-code\")\n\nfs::dir_create(\"reports\")\n\nSo, let’s break down these subfolders.\nFirst, notice that I have two subfolders for data:\n\nraw-data, and\ndata.\n\nThe subfolder raw-data is for the data that I get from the collaborator - this is dated and named (Section 4.3) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder data and record what you did in your README file (more about this later Section 4.10). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither.\nThe subfolder data is for any data structure that you make yourself. While we are talking about data. Let’s talk about .RData:\n\n\n\n\n\n\nRant 1: Stop using .RData\n\n\n\nDo not save .RData when you quit R and do not load .RData when you fire up R. The data you use in your analysis should be purposely loaded by you, not left as a side-effect.\n\n\nThe next two subfolders are figs and tabs. These are for all of the figures and tables from the analysis. I keep these seperate so that I can keep them easily, and also it makes it easy to share with the collaborators.\nSo now we get to some code file, these are put in the subfolder r-code. If I have python code, then we have a subfolder py-code, and a subfolder for julia: julia-code. I like to keep these seperate, but it is not necessary.\nThe next and final subfolder for now is reports. This is where I write my reports for the collaborator.\nNow we have some subfolders, we can now populate them with some files. So lets talk about naming files",
     "crumbs": [
       "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
-    "objectID": "project-structure.html#think-self-contained",
-    "href": "project-structure.html#think-self-contained",
-    "title": "3  Project structure",
-    "section": "3.3 Think self-contained",
-    "text": "3.3 Think self-contained\n\nknitr::include_graphics(here::here(\"figs\", \"kei-tora.png\"))",
+    "objectID": "project-structure.html#sec-name-files",
+    "href": "project-structure.html#sec-name-files",
+    "title": "4  Project structure",
+    "section": "4.3 Naming files",
+    "text": "4.3 Naming files\n\nmachine readable,\nhuman readable, and\nplays well with default ordering.",
     "crumbs": [
       "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#data",
-    "href": "project-structure.html#data",
-    "title": "3  Project structure",
-    "section": "3.3 Data",
-    "text": "3.3 Data\n\nraw-data: this is the data you get from the collaborator.\ndata: this is anything I make myself.",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#data-1",
-    "href": "project-structure.html#data-1",
-    "title": "3  Project structure",
-    "section": "3.4 Data",
-    "text": "3.4 Data\n\nraw-data: this is the data you get from the collaborator.\ndata: this is anything I make myself.",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#stop-using-.rdata",
-    "href": "project-structure.html#stop-using-.rdata",
-    "title": "3  Project structure",
-    "section": "3.4 Stop using .RData",
-    "text": "3.4 Stop using .RData\nDo not save .RData when you quit R and don’t load .RData when you fire up R.\n\nknitr::include_graphics(here::here(\"figs\", \"rdata.png\"))",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
@@ -155,17 +113,6 @@
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#naming-things---files-1",
-    "href": "project-structure.html#naming-things---files-1",
-    "title": "3  Project structure",
-    "section": "3.6 Naming things - files",
-    "text": "3.6 Naming things - files\nI use - to seperate information in filename",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
@@ -224,14 +171,14 @@
     ]
   },
   {
-    "objectID": "project-structure.html#add-readme",
-    "href": "project-structure.html#add-readme",
-    "title": "3  Project structure",
-    "section": "3.14 Add README",
-    "text": "3.14 Add README\n\nfs::file_create(\"README.qmd\")",
+    "objectID": "project-structure.html#sec-readme",
+    "href": "project-structure.html#sec-readme",
+    "title": "4  Project structure",
+    "section": "4.10 Add README",
+    "text": "4.10 Add README\n\nfs::file_create(\"README.qmd\")",
     "crumbs": [
       "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
@@ -312,91 +259,23 @@
     ]
   },
   {
-    "objectID": "project-structure.html#why-a-project-structure",
-    "href": "project-structure.html#why-a-project-structure",
-    "title": "4  Project structure",
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "6  Summary",
     "section": "",
-    "text": "You may be working on more than one project at a time, and you need to be able to move between them cleanly.\nYou may not come back to a project for many months. The longest so far for me returning to a previous analysis was 10 years.\n\n\n\n\n\n\n\n\nStats consulting Rule 1\n\n\n\n\nBe organised to look after future you.",
+    "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {
-    "objectID": "project-structure.html#guidelines",
-    "href": "project-structure.html#guidelines",
-    "title": "3  Project structure",
-    "section": "3.3 Guidelines",
-    "text": "3.3 Guidelines",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#doing-it-in-r",
-    "href": "project-structure.html#doing-it-in-r",
-    "title": "3  Project structure",
-    "section": "3.4 Doing it in R",
-    "text": "3.4 Doing it in R",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#setting-up-a-project-stucture-in-r",
-    "href": "project-structure.html#setting-up-a-project-stucture-in-r",
-    "title": "4  Project structure",
-    "section": "4.2 Setting up a project stucture in R",
-    "text": "4.2 Setting up a project stucture in R\nFirst we will set up the project using the usethis package:\n\nusethis::create_project(\"~/Desktop/2025-penguin-analysis\")\n\nSo a couple of things to notice, with my naming of the project, in this case\n2025-penguin-analysis\nFirst I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the Palmer penguins dataset - this should be rememberable enough. I will also show you later how to add this info into your reports in Section 4.10.\nSo before we create any more of the structure, lets consider our goal- think self-contained (Figure 4.1). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing.\n\nknitr::include_graphics(here::here(\"figs\", \"kei-tora.png\"))\n\n\n\n\n\n\n\nFigure 4.1: The Kei-tora gardening contest\n\n\n\n\n\nSo now we are going to add some sub-folders for out analysis:\n\nfs::dir_create(\"raw-data\")\nfs::dir_create(\"data\")\n\nfs::dir_create(\"figs\")\nfs::dir_create(\"tabs\")\n\nfs::dir_create(\"r-code\")\n\nfs::dir_create(\"reports\")\n\nSo, let’s break down these subfolders.\nFirst, notice that I have two subfolders for data:\n\nraw-data, and\ndata.\n\nThe subfolder raw-data is for the data that I get from the collaborator - this is dated and named (Section 4.3) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder data and record what you did in your README file (more about this later Section 4.10). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither.\nThe subfolder data is for any data structure that you make yourself. While we are talking about data. Let’s talk about .RData:\n\n\n\n\n\n\nRant 1: Stop using .RData\n\n\n\nDo not save .RData when you quit R and do not load .RData when you fire up R. The data you use in your analysis should be purposely loaded by you, not left as a side-effect.\n\n\nThe next two subfolders are figs and tabs. These are for all of the figures and tables from the analysis. I keep these seperate so that I can keep them easily, and also it makes it easy to share with the collaborators.\nSo now we get to some code file, these are put in the subfolder r-code. If I have python code, then we have a subfolder py-code, and a subfolder for julia: julia-code. I like to keep these seperate, but it is not necessary.\nThe next and final subfolder for now is reports. This is where I write my reports for the collaborator.\nNow we have some subfolders, we can now populate them with some files. So lets talk about naming files",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#sec-readme",
-    "href": "project-structure.html#sec-readme",
-    "title": "4  Project structure",
-    "section": "4.10 Add README",
-    "text": "4.10 Add README\n\nfs::file_create(\"README.qmd\")",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#stop-using-.rdata-1",
-    "href": "project-structure.html#stop-using-.rdata-1",
-    "title": "3  Project structure",
-    "section": "3.4 Stop using .RData",
-    "text": "3.4 Stop using .RData\nDo not save .RData when you quit R and don’t load .RData when you fire up R.\n\nknitr::include_graphics(here::here(\"figs\", \"rdata.png\"))",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#sec-name-files",
-    "href": "project-structure.html#sec-name-files",
-    "title": "4  Project structure",
-    "section": "4.3 Naming files",
-    "text": "4.3 Naming files\n\nmachine readable,\nhuman readable, and\nplays well with default ordering.",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "graphical-communication.html",
-    "href": "graphical-communication.html",
-    "title": "3  Graphical communication",
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
     "section": "",
-    "text": "Clear, Simple, Easy to read\nKnow your audience\n\nIncluding ‘who’ will be looking at it, and whether for paper vs presentation\n\nReduce unnecessary detail (e.g., don’t need both x-axis and colour)\nDon’t include aesthetics that don’t map to anything (e.g., colour without legend)\nChoose the ‘right’ plot type\n\nBars v dot, should lines join dots (i.e., do you want the reader to interpolate?), stacked v dodged bars, etc…\n\nThink about the message you want the figure to convey\n\nIncluding unit of inference – e.g., aim to show data/individual-level variation (show quantiles), vs. inference on a quantity (show CI)\nFacet order – do you want reader to compare (e.g.) heights of bars left-to-right? Or location of time series/points top-to-bottom?\n\nDon’t mislead reader (e.g., constrain y-axis limits to exaggerate differences, y-axis discontinuity to show all)\nAvoid trying to make the figure “do too much” – may make it hard to interpret for naïve reader\nUse some annotation to improve readability/interpretation\n‘Better’ figure types\n\nDonut plot rather than pie\nBeeswarm or violin plot in place of boxplot\nPoints with error bars in place of detonator plots\n\nPublication ready figures\n\nsetting up scripts to automate figure output, format, DPI, etc. according to journal requirements?\nclear captions that describe all features – tell the reader how to read the plot\n\n\n\n\n\n\nGordon, Ian, and Sue Finch. 2015. “Statistician Heal Thyself: Have We Lost the Plot?” Journal of Computational and Graphical Statistics 24 (4): 1210–29. https://doi.org/10.1080/10618600.2014.989324.\n\n\nRougier, Nicolas P., Michael Droettboom, and Philip E. Bourne. 2014. “Ten Simple Rules for Better Figures.” PLOS Computational Biology 10 (9): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.\n\n\nZaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A. Simpson. 2015. “Presenting Parasitological Data: The Good, the Bad and the Error Bar.” Parasitology 142 (11): 1351–63. https://doi.org/10.1017/S0031182015000748.",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "Part 1: Management skills (people, projects and money)",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical communication</span>"
+      "References"
     ]
   }
 ]
