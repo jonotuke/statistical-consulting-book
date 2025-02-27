@@ -1,7 +1,7 @@
 ---
 author: David Price
 nocite: |
-  @zaloumis2015, @gordon2015, @rougier2014
+  @*
 ---
 
 # Graphical communication
@@ -27,7 +27,10 @@ nocite: |
      - setting up scripts to automate figure output, format, DPI, etc. according to journal requirements?
     - clear captions that describe all features – tell the reader how to read the plot
 
-
+## Good references 
+- @zaloumis2015
+- @gordon2015
+- @rougier2014
 
 
 

@@ -87,107 +87,67 @@ So now we get to some code file, these are put in the subfolder `r-code`. If I h
 The next and final subfolder for now is `reports`. This is where I write my reports for the collaborator. 
 
 
-Now we have some subfolders, we can now populate them with some files. So lets talk about naming files
+Now we have some subfolders, we can now populate them with some files. So lets talk about naming files. 
 
+## Naming things {#sec-name-files}
+It is a good idea to keep you file names informative. Here are some guidelines for different types of files. 
 
-## Naming files {#sec-name-files}
-- machine readable, 
-- human readable, and 
-- plays well with default ordering.
+**Data**: So all data I receive is given a name of the form
 
-## Naming things - files
-I use `-` to seperate information in filename
-
-## Date ordering
 ```{r}
 #| eval: false
-#| echo: true
-2023-02-08-gene-data.xlsx
-2023-03-11-gene-data.xlsx
+2025-02-25-penguin-data.xlsx
 ```
 
-## Order of action
+So let's break this down. First the filename starts with a date entry of the form
+
 ```{r}
 #| eval: false
-#| echo: true
-01-read-data-csv.R
-02-clean-data.R
-03-fit-linear-model.R
-04-get-roc-plots.R
+year-month-day
 ```
 
-## Using here::here
-<!-- ![](here.png){fig-align="center"} -->
+This is so that the files are ordered in my folder structure, so that at a glance I can work out which is the latest files. 
 
-## Example {.smaller}
-```{r}
-#| echo: true
-#| eval: false
-mpg_data <- read_csv(
-  here::here(
-    "raw-data", "2024-02-20-mpg.csv"
-  )
-)
-mpg_data
-```
+**Analysis**: If I decide to not use targets (@sec-targets), then I will name my analysis files in the order they should be run, and also informative about what they do
 
-## Where does stuff go?
-Where did you look for it - that is where is belongs. 
-
-## Add README {#sec-readme}
 ```{r}
 #| eval: false
-#| echo: true
-fs::file_create("README.qmd")
+01-read-in-penguin-data.R
+02-clean-penguin-data.R
+03-fit-log-reg-penguin.R
 ```
 
-## Add figs
-This is where you should put all of your figures. 
+Again, this is so that in the future if I get new data or change an analysis, then I can see the dependencies and know what needs to be rerun. 
+ 
+::: {.callout-tip}
+# HERE::HERE
+So you are going to start worrying about all these subfolders and working directories. Well worry no more, as we are going to use projects, then we can use the ever so useful
+
 ```{r}
 #| eval: false
-#| echo: true
-fs::dir_create("figs")
+here::here()
 ```
 
-## Add tables
-This is where you put your tables. 
+command. 
+
+What does it do, just give the place in your directory where your project is
+
 ```{r}
-#| eval: false
-#| echo: true
-fs::dir_create("tabs")
+here::here()
 ```
 
-## Add resources
-This is where you can put papers, documents from the collaborator etc. 
+So if you want your data file in the `raw-data` folder, then you can use
+
 ```{r}
-#| eval: false
-#| echo: true
-fs::dir_create("resources")
+here::here("raw-data", "2025-02-25-penguin-data.xlsx")
 ```
 
-## More to come in later workshops
-1. Add git
-2. Add github
-3. Add targets
+Move your project to somewhere else in your computer - it will still work. 
+:::
 
-## Organising folders
+## README file {#sec-readme}
+## HERE  
 
-<!-- ![](build-second-brain.jpeg){fig-align="center"} -->
-
-## PARA
-
-1. Projects
-2. Areas
-3. Research
-4. Archives
-
-
-## Resources
-- <https://masalmon.eu/2021/06/30/r-projects/>
-- <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510>
-- <https://www.tidyverse.org/blog/2017/12/workflow-vs-script/>
-- <http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf>
-
-
-
-@knuth84
+```{r}
+# fs::dir_tree()
+```

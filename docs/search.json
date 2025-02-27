@@ -50,11 +50,143 @@
     ]
   },
   {
+    "objectID": "communication.html",
+    "href": "communication.html",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "",
+    "text": "2.1 Introduction\nOne of the most challenging things about embarking on a career as a statistical consultant is learning how to communicate effectively with others, whether they be statisticians, researchers from a different discipline, government officials or members of the public. Almost all statisticians receive requests for assistance with problems involving data analysis or applying statistical methods, even if not consultants. Yet, effective communication skills are not an essential part of statistical training, with few undergraduate or postgraduate statistical programs offering this as part of the curriculum [REF]. While mathematics, statistical design, methodology, programming in statistical software, analysing data and interpreting findings are, of course, essential for statisticians, communication skills (whether oral or written) are rarely emphasised. Where taught, communication skills often focus on presentation skills (e.g., delivering a talk at a conference setting) or providing a pitch (e.g., how to pitch your research or work to a general audience) [REFS]. Although useful, these courses offer training for very specific aspects of the job. Little training is offered on the critical communication skills statisticians require day-to-day, such as clearly describing statistical designs, methods or findings to those not trained in statistics, or writing concise reports avoiding non-technical language. These (sometimes termed ‘soft’) skills are argued to be difficult to teach or something that should be learned ‘on the job’. However, this type of training is typically offered to other professionals. For example, an essential component of training for General Practitioners (GPs) is on developing skills to effectively interact with patients, with practice scenarios to help refine these skills. Therefore, these skills can be taught and practised before beginning employment.\nIn this chapter, we outline some guidance on communicating effectively as a consultant statistician from our own experience, and that of others, within the discipline. This chapter will primarily focus on oral communication, although we will describe how written communication may assist with some aspects. This chapter is not intended to replace any formal training. However, it offers advice on our thoughts on essential communication skills which may help those embarking on a career in statistics.",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#introduction",
+    "href": "communication.html#introduction",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "",
+    "text": "Note\n\n\n\n[TO WRITE: PARAGRAPH ON EXISTING COMMUNICATION TRAINING FOR STATISTICIANS]",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#establishing-trust-and-managing-expectations",
+    "href": "communication.html#establishing-trust-and-managing-expectations",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.2 Establishing trust and managing expectations",
+    "text": "2.2 Establishing trust and managing expectations\nInitial requests for statistical support can occur in many ways, from a colleague bumping into you in the corridor with a “quick question”, a surprise phone call from a new client or collaborator, a (brief or lengthy!) e-mail, or through a formal process (e.g., online inquiry form). Irrespective of how the request is placed, our advice is to arrange to meet any new client or collaborator, preferably in person, at a dedicated place and time to have a focussed discussion about their query. Within the Methods and Implementation Support for Clinical and Health research Hub (MISCH) at the University of Melbourne, most requests are received via an online inquiry form (REF) which our dedicated MISCH manager monitors. Our MISCH manager then issues an e-mail to the person requesting assistance which contains standard information to help manage expectations and understand our processes (see #sec-email). This e-mail contains information about how our team provides support and our costing model (see #sec-agreements). This ensures that the new client should be aware of what help we can offer in advance of the meeting to help ensure the first meeting goes smoothly.",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#preparation-for-the-initial-meeting",
+    "href": "communication.html#preparation-for-the-initial-meeting",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.3 Preparation for the initial meeting",
+    "text": "2.3 Preparation for the initial meeting\nAsk the new client to provide you with written information about the study or problem in advance (e.g., study outline or protocol, article on similar work undertaken elsewhere), ideally with a clear research question which may be refined in the initial meeting. If this information is provided, it is essential that you review it in advance of the meeting and outline any thoughts or questions you have. This preparation is an important part of establishing trust. Do not underestimate the time that you may need to prepare for a meeting. In addition to reading any materials provided by the client, you may wish to undertake some further preparatory work yourself. While this should not be overly onerous, given that projects may change scope during or after the initial meeting, this will provide you with more confidence about questions you want to ask when you first meet. As a guide, the Methods and Implementation Support for Clinical and Health research Hub (MISCH) offers up to 4 hours of preparation time for new consultations [REF: MISCH collaboration agreement]. Three or 4 hours is often not necessary. However, we typically try to allocate at least an hour prior to the initial meeting to familiarise ourselves with the study topic.",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#the-initial-meeting",
+    "href": "communication.html#the-initial-meeting",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.4 The initial meeting",
+    "text": "2.4 The initial meeting\nIt is essential to be courteous when meeting new or existing clients and collaborators. Be sure to introduce yourself and ask for the new client to tell you about themselves. It is important to determine the client’s level of knowledge of study design and statistics to be able to communicate at an appropriate level. Be mindful that you may have to try another approach if it is apparent that the client does not appear to understand you. The first meeting should be used to understand the problem to be addressed and what the statistical needs are. Be aware that it is not necessary to solve the problem in the first meeting. Indeed, you should not be forced into providing answers during the meeting if you are unsure of the best approach. It is perfectly acceptable to acknowledge that the problem is an interesting one that you have not encountered before and you will consult with your team and colleagues before following up with suggestions.",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#valuing-the-experience-you-bring",
+    "href": "communication.html#valuing-the-experience-you-bring",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.5 Valuing the experience you bring",
+    "text": "2.5 Valuing the experience you bring",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#meeting-in-person",
+    "href": "communication.html#meeting-in-person",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.6 Meeting in person",
+    "text": "2.6 Meeting in person\n\n\n\n\n\n\nNote\n\n\n\n[WRITE MORE ABOUT WHY TO MEET IN PERSON] ADD ONLINE MEETING TECHNIQUES AS BECOMING MORE COMMON",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#communicating-with-different-clients",
+    "href": "communication.html#communicating-with-different-clients",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.7 Communicating with different clients",
+    "text": "2.7 Communicating with different clients",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#guiding-communication-pathways",
+    "href": "communication.html#guiding-communication-pathways",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.8 Guiding communication pathways",
+    "text": "2.8 Guiding communication pathways",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#bad-practices-and-how-to-avoid-them",
+    "href": "communication.html#bad-practices-and-how-to-avoid-them",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.9 Bad practices and how to avoid them",
+    "text": "2.9 Bad practices and how to avoid them",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
+    "objectID": "communication.html#negotiating-the-no-not-right-now-or-not-like-that",
+    "href": "communication.html#negotiating-the-no-not-right-now-or-not-like-that",
+    "title": "2  Effective communication as a statistical consultant",
+    "section": "2.10 Negotiating: the ‘no’, ‘not right now’ or ‘not like that’",
+    "text": "2.10 Negotiating: the ‘no’, ‘not right now’ or ‘not like that’",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Effective communication as a statistical consultant</span>"
+    ]
+  },
+  {
     "objectID": "graphical-communication.html",
     "href": "graphical-communication.html",
     "title": "3  Graphical communication",
     "section": "",
-    "text": "Clear, Simple, Easy to read\nKnow your audience\n\nIncluding ‘who’ will be looking at it, and whether for paper vs presentation\n\nReduce unnecessary detail (e.g., don’t need both x-axis and colour)\nDon’t include aesthetics that don’t map to anything (e.g., colour without legend)\nChoose the ‘right’ plot type\n\nBars v dot, should lines join dots (i.e., do you want the reader to interpolate?), stacked v dodged bars, etc…\n\nThink about the message you want the figure to convey\n\nIncluding unit of inference – e.g., aim to show data/individual-level variation (show quantiles), vs. inference on a quantity (show CI)\nFacet order – do you want reader to compare (e.g.) heights of bars left-to-right? Or location of time series/points top-to-bottom?\n\nDon’t mislead reader (e.g., constrain y-axis limits to exaggerate differences, y-axis discontinuity to show all)\nAvoid trying to make the figure “do too much” – may make it hard to interpret for naïve reader\nUse some annotation to improve readability/interpretation\n‘Better’ figure types\n\nDonut plot rather than pie\nBeeswarm or violin plot in place of boxplot\nPoints with error bars in place of detonator plots\n\nPublication ready figures\n\nsetting up scripts to automate figure output, format, DPI, etc. according to journal requirements?\nclear captions that describe all features – tell the reader how to read the plot\n\n\n\n\n\n\nGordon, Ian, and Sue Finch. 2015. “Statistician Heal Thyself: Have We Lost the Plot?” Journal of Computational and Graphical Statistics 24 (4): 1210–29. https://doi.org/10.1080/10618600.2014.989324.\n\n\nRougier, Nicolas P., Michael Droettboom, and Philip E. Bourne. 2014. “Ten Simple Rules for Better Figures.” PLOS Computational Biology 10 (9): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.\n\n\nZaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A. Simpson. 2015. “Presenting Parasitological Data: The Good, the Bad and the Error Bar.” Parasitology 142 (11): 1351–63. https://doi.org/10.1017/S0031182015000748.",
+    "text": "3.1 Good references",
+    "crumbs": [
+      "Part 1: Management skills (people, projects and money)",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical communication</span>"
+    ]
+  },
+  {
+    "objectID": "graphical-communication.html#good-references",
+    "href": "graphical-communication.html#good-references",
+    "title": "3  Graphical communication",
+    "section": "",
+    "text": "Zaloumis et al. (2015)\nGordon and Finch (2015)\nRougier, Droettboom, and Bourne (2014)\n\n\n\n\n\nGordon, Ian, and Sue Finch. 2015. “Statistician Heal Thyself: Have We Lost the Plot?” Journal of Computational and Graphical Statistics 24 (4): 1210–29. https://doi.org/10.1080/10618600.2014.989324.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nRougier, Nicolas P., Michael Droettboom, and Philip E. Bourne. 2014. “Ten Simple Rules for Better Figures.” PLOS Computational Biology 10 (9): e1003833. https://doi.org/10.1371/journal.pcbi.1003833.\n\n\nZaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A. Simpson. 2015. “Presenting Parasitological Data: The Good, the Bad and the Error Bar.” Parasitology 142 (11): 1351–63. https://doi.org/10.1017/S0031182015000748.",
     "crumbs": [
       "Part 1: Management skills (people, projects and money)",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Graphical communication</span>"
@@ -87,7 +219,7 @@
     "href": "project-structure.html#setting-up-a-project-stucture-in-r",
     "title": "4  Project structure",
     "section": "4.2 Setting up a project stucture in R",
-    "text": "4.2 Setting up a project stucture in R\nFirst we will set up the project using the usethis package:\n\nusethis::create_project(\"~/Desktop/2025-penguin-analysis\")\n\nSo a couple of things to notice, with my naming of the project, in this case\n2025-penguin-analysis\nFirst I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the Palmer penguins dataset - this should be rememberable enough. I will also show you later how to add this info into your reports in Section 4.10.\nSo before we create any more of the structure, lets consider our goal- think self-contained (Figure 4.1). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing.\n\nknitr::include_graphics(here::here(\"figs\", \"kei-tora.png\"))\n\n\n\n\n\n\n\nFigure 4.1: The Kei-tora gardening contest\n\n\n\n\n\nSo now we are going to add some sub-folders for out analysis:\n\nfs::dir_create(\"raw-data\")\nfs::dir_create(\"data\")\n\nfs::dir_create(\"figs\")\nfs::dir_create(\"tabs\")\n\nfs::dir_create(\"r-code\")\n\nfs::dir_create(\"reports\")\n\nSo, let’s break down these subfolders.\nFirst, notice that I have two subfolders for data:\n\nraw-data, and\ndata.\n\nThe subfolder raw-data is for the data that I get from the collaborator - this is dated and named (Section 4.3) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder data and record what you did in your README file (more about this later Section 4.10). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither.\nThe subfolder data is for any data structure that you make yourself. While we are talking about data. Let’s talk about .RData:\n\n\n\n\n\n\nRant 1: Stop using .RData\n\n\n\nDo not save .RData when you quit R and do not load .RData when you fire up R. The data you use in your analysis should be purposely loaded by you, not left as a side-effect.\n\n\nThe next two subfolders are figs and tabs. These are for all of the figures and tables from the analysis. I keep these seperate so that I can keep them easily, and also it makes it easy to share with the collaborators.\nSo now we get to some code file, these are put in the subfolder r-code. If I have python code, then we have a subfolder py-code, and a subfolder for julia: julia-code. I like to keep these seperate, but it is not necessary.\nThe next and final subfolder for now is reports. This is where I write my reports for the collaborator.\nNow we have some subfolders, we can now populate them with some files. So lets talk about naming files",
+    "text": "4.2 Setting up a project stucture in R\nFirst we will set up the project using the usethis package:\n\nusethis::create_project(\"~/Desktop/2025-penguin-analysis\")\n\nSo a couple of things to notice, with my naming of the project, in this case\n2025-penguin-analysis\nFirst I have given the year that I did the analysis. This is useful, I have a massive archive of my previous analysis stored online, and it is often easiest to indentify when the analysis was done from previous emails with the collaborator. Once I have the year, then this reduces my search space. Next, I try to give it a memorable name to remind me of the analysis. In this case, we will assume that we are analysing the Palmer penguins dataset - this should be rememberable enough. I will also show you later how to add this info into your reports in Section 4.4.\nSo before we create any more of the structure, lets consider our goal- think self-contained (Figure 4.1). In the Kei-tora gardening contest, the contestents make a self-contained garden on the back of a trailer. Replace garden with analysis and trailer with folder. You should be able to send your folder to a colleague and they can reproduce your analysis. Nothing missing.\n\nknitr::include_graphics(here::here(\"figs\", \"kei-tora.png\"))\n\n\n\n\n\n\n\nFigure 4.1: The Kei-tora gardening contest\n\n\n\n\n\nSo now we are going to add some sub-folders for out analysis:\n\nfs::dir_create(\"raw-data\")\nfs::dir_create(\"data\")\n\nfs::dir_create(\"figs\")\nfs::dir_create(\"tabs\")\n\nfs::dir_create(\"r-code\")\n\nfs::dir_create(\"reports\")\n\nSo, let’s break down these subfolders.\nFirst, notice that I have two subfolders for data:\n\nraw-data, and\ndata.\n\nThe subfolder raw-data is for the data that I get from the collaborator - this is dated and named (Section 4.3) and is then left alone. I can read it into R, but I do not change it. I repeat: I. Do. Not. Change. It. You will be tempted, a quick adjustment will make your like easier. If you need to do this, then you change it, save the new file in the subfolder data and record what you did in your README file (more about this later Section 4.4). Our goal is to make our analysis reproducible and open - unrecorded tinkering of data is neither.\nThe subfolder data is for any data structure that you make yourself. While we are talking about data. Let’s talk about .RData:\n\n\n\n\n\n\nRant 1: Stop using .RData\n\n\n\nDo not save .RData when you quit R and do not load .RData when you fire up R. The data you use in your analysis should be purposely loaded by you, not left as a side-effect.\n\n\nThe next two subfolders are figs and tabs. These are for all of the figures and tables from the analysis. I keep these seperate so that I can keep them easily, and also it makes it easy to share with the collaborators.\nSo now we get to some code file, these are put in the subfolder r-code. If I have python code, then we have a subfolder py-code, and a subfolder for julia: julia-code. I like to keep these seperate, but it is not necessary.\nThe next and final subfolder for now is reports. This is where I write my reports for the collaborator.\nNow we have some subfolders, we can now populate them with some files. So lets talk about naming files.",
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
@@ -97,74 +229,19 @@
     "objectID": "project-structure.html#sec-name-files",
     "href": "project-structure.html#sec-name-files",
     "title": "4  Project structure",
-    "section": "4.3 Naming files",
-    "text": "4.3 Naming files\n\nmachine readable,\nhuman readable, and\nplays well with default ordering.",
+    "section": "4.3 Naming things",
+    "text": "4.3 Naming things\nIt is a good idea to keep you file names informative. Here are some guidelines for different types of files.\nData: So all data I receive is given a name of the form\n\n2025-02-25-penguin-data.xlsx\n\nSo let’s break this down. First the filename starts with a date entry of the form\n\nyear-month-day\n\nThis is so that the files are ordered in my folder structure, so that at a glance I can work out which is the latest files.\nAnalysis: If I decide to not use targets (Chapter 5), then I will name my analysis files in the order they should be run, and also informative about what they do\n\n01-read-in-penguin-data.R\n02-clean-penguin-data.R\n03-fit-log-reg-penguin.R\n\nAgain, this is so that in the future if I get new data or change an analysis, then I can see the dependencies and know what needs to be rerun.\n\n\n\n\n\n\nHERE::HERE\n\n\n\nSo you are going to start worrying about all these subfolders and working directories. Well worry no more, as we are going to use projects, then we can use the ever so useful\n\nhere::here()\n\ncommand.\nWhat does it do, just give the place in your directory where your project is\n\nhere::here()\n\n[1] \"/Users/jonathantuke/Dropbox/01-projects/statistical-consulting-book\"\n\n\nSo if you want your data file in the raw-data folder, then you can use\n\nhere::here(\"raw-data\", \"2025-02-25-penguin-data.xlsx\")\n\n[1] \"/Users/jonathantuke/Dropbox/01-projects/statistical-consulting-book/raw-data/2025-02-25-penguin-data.xlsx\"\n\n\nMove your project to somewhere else in your computer - it will still work.",
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
-    "objectID": "project-structure.html#naming-things---files",
-    "href": "project-structure.html#naming-things---files",
+    "objectID": "project-structure.html#here",
+    "href": "project-structure.html#here",
     "title": "4  Project structure",
-    "section": "4.4 Naming things - files",
-    "text": "4.4 Naming things - files\nI use - to seperate information in filename",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#date-ordering",
-    "href": "project-structure.html#date-ordering",
-    "title": "4  Project structure",
-    "section": "4.5 Date ordering",
-    "text": "4.5 Date ordering\n\n2023-02-08-gene-data.xlsx\n2023-03-11-gene-data.xlsx",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#order-of-action",
-    "href": "project-structure.html#order-of-action",
-    "title": "4  Project structure",
-    "section": "4.6 Order of action",
-    "text": "4.6 Order of action\n\n01-read-data-csv.R\n02-clean-data.R\n03-fit-linear-model.R\n04-get-roc-plots.R",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#using-herehere",
-    "href": "project-structure.html#using-herehere",
-    "title": "4  Project structure",
-    "section": "4.7 Using here::here",
-    "text": "4.7 Using here::here",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#example",
-    "href": "project-structure.html#example",
-    "title": "4  Project structure",
-    "section": "4.8 Example",
-    "text": "4.8 Example\n\nmpg_data &lt;- read_csv(\n  here::here(\n    \"raw-data\", \"2024-02-20-mpg.csv\"\n  )\n)\nmpg_data",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#where-does-stuff-go",
-    "href": "project-structure.html#where-does-stuff-go",
-    "title": "4  Project structure",
-    "section": "4.9 Where does stuff go?",
-    "text": "4.9 Where does stuff go?\nWhere did you look for it - that is where is belongs.",
+    "section": "4.5 HERE",
+    "text": "4.5 HERE\n\n# fs::dir_tree()",
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
@@ -174,85 +251,8 @@
     "objectID": "project-structure.html#sec-readme",
     "href": "project-structure.html#sec-readme",
     "title": "4  Project structure",
-    "section": "4.10 Add README",
-    "text": "4.10 Add README\n\nfs::file_create(\"README.qmd\")",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#add-figs",
-    "href": "project-structure.html#add-figs",
-    "title": "4  Project structure",
-    "section": "4.11 Add figs",
-    "text": "4.11 Add figs\nThis is where you should put all of your figures.\n\nfs::dir_create(\"figs\")",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#add-tables",
-    "href": "project-structure.html#add-tables",
-    "title": "4  Project structure",
-    "section": "4.12 Add tables",
-    "text": "4.12 Add tables\nThis is where you put your tables.\n\nfs::dir_create(\"tabs\")",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#add-resources",
-    "href": "project-structure.html#add-resources",
-    "title": "4  Project structure",
-    "section": "4.13 Add resources",
-    "text": "4.13 Add resources\nThis is where you can put papers, documents from the collaborator etc.\n\nfs::dir_create(\"resources\")",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#more-to-come-in-later-workshops",
-    "href": "project-structure.html#more-to-come-in-later-workshops",
-    "title": "4  Project structure",
-    "section": "4.14 More to come in later workshops",
-    "text": "4.14 More to come in later workshops\n\nAdd git\nAdd github\nAdd targets",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#organising-folders",
-    "href": "project-structure.html#organising-folders",
-    "title": "4  Project structure",
-    "section": "4.15 Organising folders",
-    "text": "4.15 Organising folders",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#para",
-    "href": "project-structure.html#para",
-    "title": "4  Project structure",
-    "section": "4.16 PARA",
-    "text": "4.16 PARA\n\nProjects\nAreas\nResearch\nArchives",
-    "crumbs": [
-      "Part 2: Technical skills",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
-    ]
-  },
-  {
-    "objectID": "project-structure.html#resources",
-    "href": "project-structure.html#resources",
-    "title": "4  Project structure",
-    "section": "4.17 Resources",
-    "text": "4.17 Resources\n\nhttps://masalmon.eu/2021/06/30/r-projects/\nhttps://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510\nhttps://www.tidyverse.org/blog/2017/12/workflow-vs-script/\nhttp://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf\n\nKnuth (1984)\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "section": "4.4 README file",
+    "text": "4.4 README file",
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
@@ -273,9 +273,31 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Gordon, Ian, and Sue Finch. 2015. “Statistician Heal\nThyself: Have We Lost the Plot?”\nJournal of Computational and Graphical Statistics 24 (4):\n1210–29. https://doi.org/10.1080/10618600.2014.989324.\n\n\nRougier, Nicolas P., Michael Droettboom, and Philip E. Bourne. 2014.\n“Ten Simple Rules for Better\nFigures.” PLOS Computational Biology 10 (9):\ne1003833. https://doi.org/10.1371/journal.pcbi.1003833.\n\n\nZaloumis, Sophie G., Freya J. I. Fowkes, Alysha De Livera, and Julie A.\nSimpson. 2015. “Presenting Parasitological Data: The Good, the Bad\nand the Error Bar.” Parasitology 142 (11): 1351–63. https://doi.org/10.1017/S0031182015000748.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Appendix A — Resources",
+    "section": "",
+    "text": "A.1 Email example",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html#sec-agreements",
+    "href": "resources.html#sec-agreements",
+    "title": "Appendix A — Resources",
+    "section": "A.2 Agreements",
+    "text": "A.2 Agreements\nMISCH collaboration agreement",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Resources</span>"
     ]
   }
 ]

@@ -1,1 +1,47 @@
-# Communication
+---
+author: Karen Lamb
+---
+
+# Effective communication as a statistical consultant
+
+ 
+## Introduction
+One of the most challenging things about embarking on a career as a statistical consultant is learning how to communicate effectively with others, whether they be statisticians, researchers from a different discipline, government officials or members of the public. Almost all statisticians receive requests for assistance with problems involving data analysis or applying statistical methods, even if not consultants. Yet, effective communication skills are not an essential part of statistical training, with few undergraduate or postgraduate statistical programs offering this as part of the curriculum [REF]. While mathematics, statistical design, methodology, programming in statistical software, analysing data and interpreting findings are, of course, essential for statisticians, communication skills (whether oral or written) are rarely emphasised.
+Where taught, communication skills often focus on presentation skills (e.g., delivering a talk at a conference setting) or providing a pitch (e.g., how to pitch your research or work to a general audience) [REFS]. Although useful, these courses offer training for very specific aspects of the job. Little training is offered on the critical communication skills statisticians require day-to-day, such as clearly describing statistical designs, methods or findings to those not trained in statistics, or writing concise reports avoiding non-technical language. These (sometimes termed ‘soft’) skills are argued to be difficult to teach or something that should be learned ‘on the job’. However, this type of training is typically offered to other professionals. For example, an essential component of training for General Practitioners (GPs) is on developing skills to effectively interact with patients, with practice scenarios to help refine these skills. Therefore, these skills can be taught and practised before beginning employment.
+
+::: {.callout-note}
+[TO WRITE: PARAGRAPH ON EXISTING COMMUNICATION TRAINING FOR STATISTICIANS]
+:::
+
+In this chapter, we outline some guidance on communicating effectively as a consultant statistician from our own experience, and that of others, within the discipline. This chapter will primarily focus on oral communication, although we will describe how written communication may assist with some aspects. This chapter is not intended to replace any formal training. However, it offers advice on our thoughts on essential communication skills which may help those embarking on a career in statistics.
+ 
+## Establishing trust and managing expectations
+Initial requests for statistical support can occur in many ways, from a colleague bumping into you in the corridor with a “quick question”, a surprise phone call from a new client or collaborator, a (brief or lengthy!) e-mail, or through a formal process (e.g., online inquiry form). Irrespective of how the request is placed, our advice is to arrange to meet any new client or collaborator, preferably in person, at a dedicated place and time to have a focussed discussion about their query.
+Within the Methods and Implementation Support for Clinical and Health research Hub (MISCH) at the University of Melbourne, most requests are received via an online inquiry form (REF) which our dedicated MISCH manager monitors. Our MISCH manager then issues an e-mail to the person requesting assistance which contains standard information to help manage expectations and understand our processes (see #sec-email). This e-mail contains information about how our team provides support and our costing model (see #sec-agreements). This ensures that the new client should be aware of what help we can offer in advance of the meeting to help ensure the first meeting goes smoothly.
+ 
+## Preparation for the initial meeting
+Ask the new client to provide you with written information about the study or problem in advance (e.g., study outline or protocol, article on similar work undertaken elsewhere), ideally with a clear research question which may be refined in the initial meeting. If this information is provided, it is essential that you review it in advance of the meeting and outline any thoughts or questions you have. This preparation is an important part of establishing trust. Do not underestimate the time that you may need to prepare for a meeting. In addition to reading any materials provided by the client, you may wish to undertake some further preparatory work yourself. While this should not be overly onerous, given that projects may change scope during or after the initial meeting, this will provide you with more confidence about questions you want to ask when you first meet. As a guide, the Methods and Implementation Support for Clinical and Health research Hub (MISCH) offers up to 4 hours of preparation time for new consultations [REF: MISCH collaboration agreement]. Three or 4 hours is often not necessary. However, we typically try to allocate at least an hour prior to the initial meeting to familiarise ourselves with the study topic.
+ 
+## The initial meeting
+It is essential to be courteous when meeting new or existing clients and collaborators. Be sure to introduce yourself and ask for the new client to tell you about themselves. It is important to determine the client’s level of knowledge of study design and statistics to be able to communicate at an appropriate level. Be mindful that you may have to try another approach if it is apparent that the client does not appear to understand you.
+The first meeting should be used to understand the problem to be addressed and what the statistical needs are. Be aware that it is not necessary to solve the problem in the first meeting. Indeed, you should not be forced into providing answers during the meeting if you are unsure of the best approach. It is perfectly acceptable to acknowledge that the problem is an interesting one that you have not encountered before and you will consult with your team and colleagues before following up with suggestions.
+
+
+
+## Valuing the experience you bring
+ 
+## Meeting in person
+
+::: {.callout-note}
+[WRITE MORE ABOUT WHY TO MEET IN PERSON]
+ADD ONLINE MEETING TECHNIQUES AS BECOMING MORE COMMON
+:::
+ 
+ 
+  
+ 
+## Communicating with different clients
+## Guiding communication pathways
+## Bad practices and how to avoid them
+## Negotiating: the ‘no’, ‘not right now’ or ‘not like that’    
+ 

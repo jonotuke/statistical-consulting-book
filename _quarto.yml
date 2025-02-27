@@ -19,6 +19,8 @@ book:
       - targets.qmd
     - summary.qmd
     - references.qmd
+  appendices:
+    - resources.qmd
   cover-image: figs/cover.png
 
 bibliography: references.bib
