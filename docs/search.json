@@ -237,22 +237,22 @@
     ]
   },
   {
-    "objectID": "project-structure.html#here",
-    "href": "project-structure.html#here",
+    "objectID": "project-structure.html#sec-readme",
+    "href": "project-structure.html#sec-readme",
     "title": "4  Project structure",
-    "section": "4.5 HERE",
-    "text": "4.5 HERE\n\n# fs::dir_tree()",
+    "section": "4.4 README file",
+    "text": "4.4 README file",
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
     ]
   },
   {
-    "objectID": "project-structure.html#sec-readme",
-    "href": "project-structure.html#sec-readme",
+    "objectID": "project-structure.html#here",
+    "href": "project-structure.html#here",
     "title": "4  Project structure",
-    "section": "4.4 README file",
-    "text": "4.4 README file",
+    "section": "4.5 HERE",
+    "text": "4.5 HERE\n\n# fs::dir_tree()",
     "crumbs": [
       "Part 2: Technical skills",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Project structure</span>"
